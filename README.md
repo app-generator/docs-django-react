@@ -1,4 +1,4 @@
-# [Django Core](https://github.com/app-generator/core-django)
+# [Django Core](https://github.com/app-generator/docs-django-react)
 
 Minimal **Django** project with `Docker` support - actively supported by [App Generator](https://app-generator.dev/) via `Email` and **[Discord](https://discord.gg/fZC6hup)**. 
 
@@ -19,8 +19,8 @@ Minimal **Django** project with `Docker` support - actively supported by [App Ge
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/app-generator/core-django.git
-$ cd core-django
+$ git clone https://github.com/app-generator/docs-django-react.git
+$ cd docs-django-react
 ```
 
 <br />
@@ -40,8 +40,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/app-generator/core-django.git
-$ cd core-django
+$ git clone https://github.com/app-generator/docs-django-react.git
+$ cd docs-django-react
 ```
 
 <br />
@@ -65,6 +65,30 @@ $ python manage.py migrate
 
 <br />
 
+> 👉 Set Up React and Webpack
+
+Install JavaScript dependencies:
+
+```bash
+$ npm install
+```
+
+To build the React frontend, use the following commands:
+
+For development (watch mode):
+
+```bash
+$ npm run dev
+```
+
+For production build:
+
+```bash
+$ npm run build
+```
+
+<br />
+
 > 👉 Start the app
 
 ```bash
@@ -76,4 +100,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-**[Django Core](https://github.com/app-generator/core-django)** - Minimal **Django** core provided by **[AppSeed](https://appseed.us/)**
+**[Django Core](https://github.com/app-generator/docs-django-react)** - Minimal **Django** core provided by **[AppSeed](https://appseed.us/)**
