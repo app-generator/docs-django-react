@@ -6,9 +6,12 @@ from datetime import datetime
 
 from .models import *
 
-def index(request):
 
-  context = {
-    'date': datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
-  }
-  return HttpResponse("Hello DJANGO! time is: " + context['date'])
+def index(request):
+    context = {
+        "date": datetime.today().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    return HttpResponse("Hello DJANGO! time is: " + context["date"])
+
+def frontend(request):
+    return render(request, 'frontend/index.html')

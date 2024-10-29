@@ -7,7 +7,15 @@
 /node_modules/
 build/
 env
+venv/
+
+# ignore compiled files
+
+frontend/static/
 
 #src
 *.sqlite*
+
+# json files
+webpack-stats.json
 
